@@ -97,7 +97,7 @@ print(f"Flux at center (x={slab_length/2:.1f} cm) = {flux_full[n_points//2]:.6f}
 
 # Plot the flux distribution
 plt.figure(figsize=(10, 6))
-plt.plot(x, flux_full, 'b-', linewidth=2, label='Neutron Flux φ(x)')
+plt.plot(x, flux_full, 'b-o', linewidth=2, label='Neutron Flux φ(x)')
 plt.xlabel('Position x [cm]', fontsize=12)
 plt.ylabel('Normalized Neutron Flux', fontsize=12)
 plt.title(f'1D Neutron Flux Distribution (k-eff = {k_eff:.6f})', fontsize=14)
